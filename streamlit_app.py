@@ -11,8 +11,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data',
                 names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class'])
 
-st.title('Exploratory Data Analysis of the Iris Dataset')
-st.header('This app allows you to explore the Iris dataset and visualize the data using various plots.')
+st.title('Análisis exploratorio monto financiero de convocatoria')
+st.header('Esta aplicación permite explorar el conjunto de datos de monto financiero de convocatoria mediante diversos gráficos.')
 
 st.subheader("DataFrame")
 st.dataframe(df)
